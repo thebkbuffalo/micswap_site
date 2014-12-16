@@ -21,7 +21,7 @@
  3.6 Newsletter
  3.7 Contact
  3.8 Footer
-4 Responsive 
+4 Responsive
 **********************************************************************/
 
 /*
@@ -54,7 +54,7 @@ p {
     color: #fff;
 }
 .navbar {
-    background: #181A1C;
+    background: #FFF;
     margin-bottom:0;
     min-height:70px;
 }
@@ -65,15 +65,15 @@ p {
     padding-top:0;
 }
 .navbar-inner {
-    background: #181A1C;
+    background: #FFF;
     border-radius:0;
     filter: none;
     border: none;
     box-shadow: none;
 }
 .navbar .brand img {
-    width:120px;
-    height:40px;
+    width:164px;
+    height:60px;
 }
 .navbar .nav > li > a {
     text-transform:uppercase;
@@ -86,7 +86,7 @@ p {
     box-shadow: none;
     font-size:15px;
     text-shadow: none;
-    color: #fff;
+    color: #000000;
     transition: border-color 1s ease;
 }
 .navbar .nav > li:hover> a, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
@@ -275,7 +275,7 @@ p {
     -ms-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
-.thumbnail h3, 
+.thumbnail h3,
 .thumbnail p {
     margin:0;
     padding:0;
@@ -335,7 +335,7 @@ p {
     color:#181A1C;
 }
 /*
-3. Sections 
+3. Sections
 ***************************************************************************/
  .section {
     padding-bottom: 50px;
@@ -403,7 +403,7 @@ p {
     padding:0;
 }
 /*******
-3.1 Services  
+3.1 Services
 ***************************************/
 .service{
     margin-top:20px;
@@ -593,7 +593,7 @@ p {
 .testimonial .whopic small {
     display:block;
     font-size:12px;
-    
+
 }
 .testimonial-text{
     display:block;
