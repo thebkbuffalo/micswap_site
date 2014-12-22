@@ -118,6 +118,34 @@ p {
     background:#FECE1A;
     color: #000;
 }
+
+/***************
+CUSTOM CSS STUFF
+*********************************************************************/
+.intro {
+  display: inline-block;
+  text-align: center;
+}
+
+
+.intro_iphone {
+  margin: 5em 0 10em 10em;
+}
+
+#intro_info {
+  margin: 10em 0 0 8em;
+  text-align: center;
+  padding: 2em;
+}
+
+#intro_download, #intro_video {
+  border: 1px black solid;
+  padding: .5em;
+}
+
+
+
+
 /******
 2. Layout
 **********************************************************************/
@@ -181,6 +209,7 @@ p {
     border-left: 585px outset transparent;
     border-right: 585px outset transparent;
     position: relative;
+    opacity: .3
 }
 /*
 2.1 Animations
@@ -364,6 +393,7 @@ p {
 }
 .primary-section .triangle {
     border-top: 40px solid #FECE1A;
+    opacity: .3;
 }
 .primary-section .title {
     border-bottom: 1px solid #FFF;
