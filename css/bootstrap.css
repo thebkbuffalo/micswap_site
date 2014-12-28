@@ -894,9 +894,9 @@ dd {
 }
 
 hr {
-  margin: 20px 0;
+  margin: 20px 25em;
   border: 0;
-  border-top: 1px solid #eeeeee;
+  border-top: 4px solid #3399FF;
   border-bottom: 1px solid #ffffff;
 }
 

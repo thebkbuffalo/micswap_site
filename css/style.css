@@ -140,10 +140,16 @@ CUSTOM CSS STUFF
 
 #intro_download, #intro_video {
   border: 1px black solid;
-  padding: .5em;
+  padding: .5em 1.5em .5em 1.5em;
 }
 
+#intro_button {
+  margin-top: 1.5em;
+}
 
+#intro_video {
+  margin-left: 2em;
+}
 
 
 /******
@@ -402,7 +408,7 @@ CUSTOM CSS STUFF
     color: #FECE1A;
 }
 .primary-section h1 {
-    color:#FFF;
+    color: black;
 }
 .secondary-section {
     background: white;
@@ -844,9 +850,9 @@ CUSTOM CSS STUFF
     position:fixed;
     bottom:30px;
     right:20px;
-	border:1px solid #fff;
+	  border:1px solid #fff;
     display:none;
-    /*background: #FECE1A;*/
+    background: black;
 }
 .scrollup > a {
     position:relative;
