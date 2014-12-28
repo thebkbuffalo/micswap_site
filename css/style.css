@@ -389,7 +389,7 @@ CUSTOM CSS STUFF
     font-weight: lighter;
 }
 .primary-section {
-    background:#181A1C;
+    background: white;
 }
 .primary-section .triangle {
     border-top: 40px solid #FECE1A;
@@ -405,7 +405,7 @@ CUSTOM CSS STUFF
     color:#FFF;
 }
 .secondary-section {
-    background:#FECE1A;
+    background: white;
 }
 .secondary-section .title {
     border-bottom: 1px solid #181A1C;
