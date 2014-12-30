@@ -129,18 +129,24 @@ CUSTOM CSS STUFF
 
 
 .intro_iphone {
-  margin: 5em 0 10em 10em;
+  margin: 5em 0 15em 10em;
 }
 
 #intro_info {
   margin: 10em 0 0 8em;
   text-align: center;
-  padding: 2em;
+  padding: 4em;
+}
+
+#intro_info a:hover {
+  background: black;
 }
 
 #intro_download, #intro_video {
-  border: 1px black solid;
-  padding: .5em 1.5em .5em 1.5em;
+  color: white;
+  background: #2177CD;
+  border-radius: 10px;
+  padding: .5em 2em;
 }
 
 #intro_button {
@@ -149,6 +155,10 @@ CUSTOM CSS STUFF
 
 #intro_video {
   margin-left: 2em;
+}
+
+#three_iphone_full {
+  text-align: center;
 }
 
 
@@ -444,6 +454,7 @@ CUSTOM CSS STUFF
 ***************************************/
 .service{
     margin-top:20px;
+    height: 430px;
 }
  .service, .service h2 {
     padding-top:15px;
