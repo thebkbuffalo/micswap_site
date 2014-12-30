@@ -159,8 +159,38 @@ CUSTOM CSS STUFF
 
 #three_iphone_full {
   text-align: center;
+  margin-bottom: 4em;
 }
 
+#portfolio {
+  background: #8CCDED;
+}
+
+#portfolio h1 {
+  color: white;
+}
+
+#short_iphone {
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#short_iphone img {
+  margin-top: 2em;
+}
+
+#audio_video {
+  text-align: center;
+}
+
+#about {
+  background: #262626;
+}
+
+#about h1 {
+  color: white;
+}
 
 /******
 2. Layout
@@ -384,11 +414,11 @@ CUSTOM CSS STUFF
 3. Sections
 ***************************************************************************/
  .section {
-    padding-bottom: 50px;
+    /*padding-bottom: 50px;*/
 }
-.section .container {
+/*.section .container {
     padding-top:50px;
-}
+}*/
 .section .title {
     text-align: center;
     padding:10px;
@@ -424,7 +454,8 @@ CUSTOM CSS STUFF
     background: white;
 }
 .secondary-section .title {
-    border-bottom: 1px solid #181A1C;
+    border-bottom: 1px solid rgb(71,71,71);
+    margin: 0 15em;
 }
 .secondary-section h1, .secondary-section .title p {
     color: #181A1C;
