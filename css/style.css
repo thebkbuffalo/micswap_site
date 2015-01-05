@@ -193,7 +193,13 @@ CUSTOM CSS STUFF
 }
 
 #pro {
-
+  height: 501px;
+  width: 1340px;
+  background: url("../images/ms_pro.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 /******
