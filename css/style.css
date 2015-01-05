@@ -142,7 +142,7 @@ CUSTOM CSS STUFF
   background: black;
 }
 
-#intro_download, #intro_video {
+#intro_download, #intro_video, #pro_dl {
   color: white;
   background: #2177CD;
   border-radius: 10px;
@@ -200,6 +200,33 @@ CUSTOM CSS STUFF
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  text-align: center;
+  color: white !important;
+}
+
+.pro-inner {
+  padding-top: 5em;
+}
+
+#ios-pro {
+  background: #fff;
+  display: block;
+  color: black !important;
+  margin: 0 17em;
+  border: 1px black solid;
+  border-radius: 3px;
+}
+
+#studio_pics {
+  border-radius: 5px;
+}
+
+#studios {
+  color: #aaa;
+}
+
+.fa {
+  color: #aaa;
 }
 
 /******
@@ -455,7 +482,7 @@ CUSTOM CSS STUFF
     border-bottom: 1px solid #FFF;
 }
 .primary-section, .primary-section .title p, .primary-section h3 {
-    color: #FECE1A;
+    /*color: #FECE1A;*/
 }
 .primary-section h1 {
     color: black;
@@ -707,7 +734,7 @@ CUSTOM CSS STUFF
     border-radius: 10px;
     padding-bottom:20px;
     margin:0 auto;
-    text-align:center;
+    text-align:left;
 }
 .price-column h3 {
     background-color:#181A1C;
@@ -721,6 +748,16 @@ CUSTOM CSS STUFF
     -webkit-border-radius: 10px 10px 0px 0px;
     border-radius: 10px 10px 0px 0px;
 }
+
+.price-column h4 {
+  color: black;
+  text-align: center;
+}
+
+.price-column p {
+  color: #aaa;
+}
+
 .price-column .list{
     list-style:none;
     margin:20px 50px;
