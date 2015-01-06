@@ -245,6 +245,17 @@ CUSTOM CSS STUFF
   padding-top: 3em;
 }
 
+#team {
+  text-align: center;
+  color: black;
+  margin-top: 3em;
+}
+
+#team hr {
+  margin: 0 35em;
+}
+
+
 /******
 2. Layout
 **********************************************************************/
