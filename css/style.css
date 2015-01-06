@@ -286,6 +286,24 @@ CUSTOM CSS STUFF
 }
 
 
+#contact-icons {
+  margin-bottom: 2em;
+}
+
+#contact-icons p {
+  color: gray;
+}
+
+.general, .support, .press-contact {
+  display: inline-block;
+  margin: 0 5em;
+}
+
+#social_section {
+  height: 281px;
+  background: url("../images/social-bg.png");
+}
+
 /******
 2. Layout
 **********************************************************************/
@@ -481,28 +499,30 @@ CUSTOM CSS STUFF
 /*
 2.4 Socail icons
 ************/
- .social {
+.social {
     list-style: none;
     float: none;
     position:relative;
     margin:5px; auto;
+    color: black;
 }
 .social li {
     display:inline-block;
     line-height: 32px;
     font-family:'Porta';
-    font-size: 32px;
+    font-size: 70px;
     padding:0 5px;
+    margin-top: 1.7em;
 }
 .social li a {
     margin:0;
     padding:0;
-    width:32px;
-    height:32px;
-    color: #FECE1A;
+    width:40px;
+    height:40px;
+    color: #888;
 }
 .social li a:hover {
-    color:#181A1C;
+    color: #F2F2F2;
 }
 /*
 3. Sections
@@ -548,7 +568,7 @@ CUSTOM CSS STUFF
     background: white;
 }
 .secondary-section .title {
-    border-bottom: 1px solid rgb(71,71,71);
+    /*border-bottom: 1px solid rgb(71,71,71);*/
     margin: 0 15em;
 }
 .secondary-section h1, .secondary-section .title p {
@@ -871,6 +891,7 @@ CUSTOM CSS STUFF
 ********************************************************************/
  .contact {
     background: #FECE1A;
+    text-align: center;
 }
 .contact h1, .contact h2, .contact h3, .contact h4, .contact h5, .contact h6, .contact .section .title > p, .contact .social > li > a {
     color: #181A1C;
