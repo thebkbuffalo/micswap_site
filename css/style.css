@@ -278,7 +278,13 @@ CUSTOM CSS STUFF
 #press {
   height: 436px;
   background: #3399FF;
+  text-align: center;
 }
+
+.carousel-inner h1 {
+  margin-top: 5em;
+}
+
 
 /******
 2. Layout
