@@ -294,15 +294,29 @@ CUSTOM CSS STUFF
   color: gray;
 }
 
+#contact p {
+  padding: 0;
+}
+
+#contact a {
+  text-decoration: none;
+}
+
+#contact .fa:hover {
+  color: black;
+  transition: .3s;
+}
+
 .general, .support, .press-contact {
   display: inline-block;
   margin: 0 5em;
 }
 
 #social_section {
-  height: 281px;
   background: url("../images/social-bg.png");
 }
+
+
 
 /******
 2. Layout
@@ -503,16 +517,31 @@ CUSTOM CSS STUFF
     list-style: none;
     float: none;
     position:relative;
-    margin:5px; auto;
+    margin:5px auto;
     color: black;
+    height: 173px;
+    margin-top: 5em;
 }
+
+.social p {
+  color: gray;
+  font-size: 1.2em;
+}
+
+
+.facebook {
+  width: 30px !important;
+}
+
 .social li {
     display:inline-block;
-    line-height: 32px;
+    line-height: 60px;
     font-family:'Porta';
-    font-size: 70px;
-    padding:0 5px;
-    margin-top: 1.7em;
+    font-size: 35px;
+    padding:0 20px;
+    margin-top: .5em;
+    border: 2px solid;
+    border-radius: 175px;
 }
 .social li a {
     margin:0;
@@ -520,10 +549,17 @@ CUSTOM CSS STUFF
     width:40px;
     height:40px;
     color: #888;
+    text-decoration: none;
 }
 .social li a:hover {
-    color: #F2F2F2;
+    border-color: #fff;
 }
+
+.social li:hover {
+  color: #fff;
+  transition: .3s;
+}
+
 /*
 3. Sections
 ***************************************************************************/
