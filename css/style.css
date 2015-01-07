@@ -140,6 +140,18 @@ CUSTOM CSS STUFF
 
 #intro_info a:hover {
   background: black;
+  transition: .5s;
+}
+
+#pro a:hover {
+  background: black;
+  transition: .5s;
+}
+
+
+.fa-download, .fa-play {
+  color: white !important;
+  padding-right: 1em;
 }
 
 #intro_download, #intro_video, #pro_dl, #ed_contact {
