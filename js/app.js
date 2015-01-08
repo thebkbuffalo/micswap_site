@@ -8,6 +8,22 @@
  */
 jQuery(document).ready(function ($) {
 
+    var click_video = $("#intro_video");
+    click_video.click(function(){
+      console.log("clicked");
+      alert("clicked son");
+    });
+
+    var gary = $("#gary");
+    gary.hover(function(){
+      console.log("hovered");
+    });
+
+    var rob = $("#rob");
+    rob.hover(function(){
+      console.log("hovered");
+    });
+
     var lastId,
         topMenu = $("#top-navigation"),
         topMenuHeight = topMenu.outerHeight(),
