@@ -1139,6 +1139,10 @@ CUSTOM CSS STUFF
     margin: 5em 0 15em 0;
   }
 
+  .intro {
+    display: block !important;
+  }
+
 }
 @media (max-width: 767px) {
     .info-mail {
@@ -1150,6 +1154,10 @@ CUSTOM CSS STUFF
     }
     .price-column, .testimonial {
         margin-top:30px;
+    }
+
+    .intro {
+      display: block;
     }
 
 }
