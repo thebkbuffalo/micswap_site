@@ -1139,9 +1139,9 @@ CUSTOM CSS STUFF
     margin: 5em 0 15em 0;
   }
 
-  .intro {
+  /*.intro {
     display: block !important;
-  }
+  }*/
 
 }
 @media (max-width: 767px) {
@@ -1156,8 +1156,8 @@ CUSTOM CSS STUFF
         margin-top:30px;
     }
 
-    .intro {
+    /*.intro {
       display: block;
-    }
+    }*/
 
 }
