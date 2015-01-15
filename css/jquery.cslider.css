@@ -1293,6 +1293,10 @@
     .da-slide .da-link {
         top:65%;
     }
+
+    #intro_image {
+      display: none;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1328,7 +1332,7 @@
     .da-slide h4{
         font-size: 14px;
         top: 70px;
-    /*}
+    }
 
     .da-slide .da-img {
         display:none;
@@ -1336,5 +1340,5 @@
 
     .da-slide .da-link {
         display:none;
-    }*/
+    }
 }
