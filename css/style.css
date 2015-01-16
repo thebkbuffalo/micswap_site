@@ -175,6 +175,11 @@ CUSTOM CSS STUFF
   margin-bottom: 4em;
 }
 
+#mid_video {
+  height: 473px;
+  width: 840px;
+}
+
 #portfolio {
   background: #8CCDED;
 }
@@ -1078,7 +1083,7 @@ CUSTOM CSS STUFF
 /*
 4 Responsible
 ********************************************************************/
- @media (min-width: 1200px) {
+ @media all and (min-width: 1200px) {
     .thumbnail .more {
         margin-left:-41px;
         width:80px;
@@ -1087,7 +1092,7 @@ CUSTOM CSS STUFF
         line-height: 80px;
     }
 }
-@media (max-width: 979px) {
+@media all and (max-width: 979px) {
     body {
         padding-left:0;
         padding-right:0;
@@ -1151,8 +1156,14 @@ CUSTOM CSS STUFF
     margin: 0;
   }
 
+  #mid_video {
+    width: 50%;
+  }
+
+
+
 }
-@media (max-width: 767px) {
+@media all and (max-width: 767px) {
     .info-mail {
         width:90%;
         padding:15px 0px;
@@ -1174,6 +1185,10 @@ CUSTOM CSS STUFF
 
     .secondary-section .title {
       margin: 0;
+    }
+
+    #mid_video {
+      width: 90%;
     }
 
 }
