@@ -1157,11 +1157,11 @@ CUSTOM CSS STUFF
   }
 
   #mid_video {
-    width: 50%;
+    width: 85%;
   }
 
   #micswap-pro, #pro, #pro_dl {
-    width: 90%;
+    width: 100%;
   }
 
   #ios-pro {
@@ -1228,56 +1228,12 @@ CUSTOM CSS STUFF
       height: 100%;
     }
 
+    .scrollup {
+      display: none !important;
+    }
 
+    .general, .support, .press-contact {
+      width: 40%;
+    }
 
-}
-
-@media (max-width: 350px) {
-  body {
-    width: 100%;
-  }
-
-  .info-mail {
-    width:90%;
-    padding:15px 0px;
-  }
-  .project-description {
-    padding-left:20px;
-  }
-  .price-column, .testimonial {
-    margin-top:30px;
-  }
-
-  /*.intro {
-  display: block;
-  }*/
-
-  .carousel-inner h1 {
-    margin-top: 2em;
-  }
-
-  .secondary-section .title {
-    margin: 0;
-  }
-
-  #mid_video {
-    width: 90%;
-  }
-
-  #pro, #micswap-pro, #pro_dl {
-    width: 100%
-  }
-
-  #ios-pro {
-    display: none;
-  }
-
-  #education, #education-inner {
-    width: 100%;
-    height: 100%;
-  }
-
-  #press {
-    height: 100%;
-  }
 }
