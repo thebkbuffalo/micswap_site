@@ -1160,12 +1160,19 @@ CUSTOM CSS STUFF
     width: 50%;
   }
 
+  #micswap-pro, #pro, #pro_dl {
+    width: 90%;
+  }
+
+  #ios-pro {
+    display: none;
+  }
 
 
 }
 @media all and (max-width: 767px) {
     .info-mail {
-        width:90%;
+        width:90%;hahahaha oh that place,
         padding:15px 0px;
     }
     .project-description {
@@ -1189,6 +1196,14 @@ CUSTOM CSS STUFF
 
     #mid_video {
       width: 90%;
+    }
+
+    #pro, #micswap-pro, #pro_dl {
+      width: 100%
+    }
+
+    #ios-pro {
+      display: none;
     }
 
 }
