@@ -1180,6 +1180,10 @@ CUSTOM CSS STUFF
 
 }
 @media (max-width: 767px) {
+    body {
+      width: 100%;
+    }
+
     .info-mail {
         width:90%;
         padding:15px 0px;
@@ -1229,6 +1233,10 @@ CUSTOM CSS STUFF
 }
 
 @media (max-width: 350px) {
+  body {
+    width: 100%;
+  }
+
   .info-mail {
     width:90%;
     padding:15px 0px;
