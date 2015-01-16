@@ -1297,6 +1297,10 @@
     #intro_image {
       display: none;
     }
+
+    #intro_info {
+      display: none;
+    }
 }
 
 @media (max-width: 767px) {
