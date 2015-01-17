@@ -1140,6 +1140,10 @@ CUSTOM CSS STUFF
         text-align:center;
     }
 
+    .price-table {
+      margin-top: 0;
+    }
+
   .intro_iphone {
     margin: 5em 0 15em 0;
   }
@@ -1211,9 +1215,8 @@ CUSTOM CSS STUFF
       width: 90%;
     }
 
-    #pro, #micswap-pro, #pro_dl {
+    #pro, #pro_dl {
       width: 100%;
-      
     }
 
     #ios-pro {
