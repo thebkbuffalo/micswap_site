@@ -1164,8 +1164,15 @@ CUSTOM CSS STUFF
     width: 85%;
   }
 
-  #micswap-pro, #pro, #pro_dl {
+  #micswap-pro, #pro, {
     width: 100%;
+    background: url("../images/ms_pro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center;
+
   }
 
   #ios-pro {
