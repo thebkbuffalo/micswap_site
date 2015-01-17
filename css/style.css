@@ -1168,15 +1168,14 @@ CUSTOM CSS STUFF
     width: 100%;
   }
 
-  /*#pro, {
+  #pro, {
     width: 100%;
     background: url("../images/ms_pro.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
     text-align: center;
-  }*/
+  }
 
   #ios-pro {
     display: none;
@@ -1225,8 +1224,17 @@ CUSTOM CSS STUFF
       width: 90%;
     }
 
-    #pro, #pro_dl {
+    #micswap-pro {
       width: 100%;
+    }
+
+    #pro {
+      width: 100%;
+      background: url("../images/ms_pro.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      text-align: center;
     }
 
     #ios-pro {
