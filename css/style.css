@@ -293,6 +293,11 @@ CUSTOM CSS STUFF
   color: gray;
 }
 
+#gary-social, #rob-social {
+  display: none;
+}
+
+
 #press {
   height: 436px;
   background: #3399FF;
@@ -1208,6 +1213,12 @@ CUSTOM CSS STUFF
     height: 100%;
   }
 
+  #gary-social, #rob-social {
+    display: inline;
+    padding: .3em;
+  }
+
+
 
 }
 @media (max-width: 767px) {
@@ -1287,6 +1298,12 @@ CUSTOM CSS STUFF
     #press {
       height: 100%;
     }
+
+    #gary-social, #rob-social {
+      display: inline;
+      padding: .3em;
+    }
+
 
     .scrollup {
       display: none !important;
