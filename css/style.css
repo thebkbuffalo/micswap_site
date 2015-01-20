@@ -563,6 +563,7 @@ CUSTOM CSS STUFF
     font-size: 35px;
     padding:0 20px;
     margin-top: .5em;
+    margin-left: .3em;
     border: 2px solid;
     border-radius: 175px;
 }
@@ -1214,6 +1215,9 @@ CUSTOM CSS STUFF
     padding: .3em;
   }
 
+  .social li {
+    margin-left: 0 !important;
+
 
 
 }
@@ -1244,6 +1248,8 @@ CUSTOM CSS STUFF
     .secondary-section .title {
       margin: 0;
     }
+
+
 
 
     #mid_video {
@@ -1304,5 +1310,8 @@ CUSTOM CSS STUFF
     .general, .support, .press-contact {
       width: 40%;
     }
+
+    .social li {
+      margin-left: 0 !important;
 
 }
