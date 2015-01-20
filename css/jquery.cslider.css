@@ -1313,6 +1313,56 @@
     }
 }
 
+@media (max-width: 1050px) {
+  .da-slide h2 {
+    font-size: 20px;
+    top:40px;
+  }
+
+  .da-slide h4 {
+    font-size: 16px;
+    top:80px;
+  }
+
+  .da-slide p {
+    display:none;
+  }
+  .da-slide .da-img {
+    top:50px;
+    width:30%;
+  }
+  .da-slide .da-link{
+    margin:0;
+    font-size:12px;
+    top:150px;
+  }
+
+  #mobile_intro {
+    display: inline;
+    color: white;
+    text-align: center;
+  }
+
+  #mobile_inner {
+    margin-top: 5em;
+  }
+
+  #mobile-intro-buttons {
+    padding: 1em;
+    margin-top: 2em;
+  }
+
+  #mobile-download {
+    text-decoration: none;
+    color: white;
+    background: #2177CD;
+    border-radius: 10px;
+    padding: .5em 2em;
+  }
+}
+
+}
+
 @media (max-width: 767px) {
     .da-slide h2 {
         font-size: 20px;
