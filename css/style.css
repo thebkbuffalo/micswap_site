@@ -249,6 +249,7 @@ CUSTOM CSS STUFF
   color: #aaa;
 }
 
+
 #education {
   height: 375px;
   width: 1340px;
@@ -258,10 +259,17 @@ CUSTOM CSS STUFF
   background-position: center center;
   background-attachment: fixed;
   text-align: center;
+  color: white;
 }
 
 .education-inner {
   padding-top: 3em;
+  color: white;
+}
+
+.fa-envelope-o:before {
+  color: white;
+  margin-right: .5em;
 }
 
 #team {

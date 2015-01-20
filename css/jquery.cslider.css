@@ -1313,7 +1313,7 @@
     }
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1159px) {
   .da-slide h2 {
     font-size: 20px;
     top:40px;
@@ -1345,6 +1345,10 @@
 
   #mobile_inner {
     margin-top: 5em;
+  }
+
+  #mobile_inner h5 {
+    margin-bottom: 3em;
   }
 
   #mobile-intro-buttons {
@@ -1396,6 +1400,11 @@
     #mobile_inner {
       margin-top: 5em;
     }
+
+    #mobile_inner h5 {
+      margin-bottom: 3em;
+    }
+
 
     #mobile-intro-buttons {
       padding: 1em;
