@@ -1166,8 +1166,13 @@ CUSTOM CSS STUFF
   }
 
   #tall_iphones {
-    height: 13.5em;
-    width: 100%;
+    transform: scale(1.1,1.1);
+    overflow: hidden;
+  }
+
+  #short_iphone img {
+    transform: scale(1.1,1.1);
+    margin-bottom: .4em;
   }
 
   #mid_video {
@@ -1215,7 +1220,7 @@ CUSTOM CSS STUFF
 
   #gary-social, #rob-social {
     display: inline;
-    padding: .5em;
+    padding: .3em;
   }
 
 
@@ -1250,8 +1255,13 @@ CUSTOM CSS STUFF
     }
 
     #tall_iphones {
-      height: 13.5em%;
-      width: 100%;
+      transform: scale(1.1,1.1);
+      overflow: hidden;
+    }
+
+    #short_iphone img {
+      transform: scale(1.1,1.1);
+      margin-bottom: .4em;
     }
 
     #mid_video {
