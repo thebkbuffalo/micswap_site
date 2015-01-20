@@ -1165,15 +1165,6 @@ CUSTOM CSS STUFF
     margin: 0;
   }
 
-  /*#tall_iphones {
-    transform: scale(1.1,1.1);
-    overflow: hidden;
-  }
-
-  #short_iphone img {
-    transform: scale(1.1,1.1);
-    margin-bottom: .4em;
-  }*/
 
   #mid_video {
     width: 85%;
@@ -1254,19 +1245,10 @@ CUSTOM CSS STUFF
       margin: 0;
     }
 
-    /*#tall_iphones {
-      transform: scale(1.1,1.1);
-      overflow: hidden;
-    }
-
-    #short_iphone img {
-      transform: scale(1.1,1.1);
-      margin-bottom: .4em;
-    }*/
 
     #mid_video {
-      width: 90%;
-      height: 25em;
+      width: 97%;
+      height: 20em;
     }
 
     #micswap-pro {

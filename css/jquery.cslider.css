@@ -1,3 +1,7 @@
+#mobile_intro {
+  display: none;
+}
+
 .da-slider {
     width: 100%;
     min-width: 320px;
@@ -1294,12 +1298,18 @@
         top:65%;
     }
 
-    #intro_image {
+    #intro_section {
       display: none;
     }
 
-    #intro_info {
-      display: none;
+    #mobile_intro {
+      display: inline;
+      color: white;
+      text-align: center;
+    }
+
+    #mobile_inner {
+      margin-top: 3em;
     }
 }
 
@@ -1326,6 +1336,29 @@
         font-size:12px;
         top:150px;
     }
+
+    #mobile_intro {
+      display: inline;
+      color: white;
+      text-align: center;
+    }
+
+    #mobile_inner {
+      margin-top: 3em;
+    }
+
+    #mobile-intro-buttons {
+      padding: 1em;
+      margin-top: 2em;
+    }
+
+    #mobile-download {
+      text-decoration: none;
+      color: white;
+      background: #2177CD;
+      border-radius: 10px;
+      padding: .5em 2em;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1344,5 +1377,15 @@
 
     .da-slide .da-link {
         display:none;
+    }
+
+    #mobile_intro {
+      display: inline;
+      color: white;
+      text-align: center;
+    }
+
+    #mobile_innner {
+      margin-top: 3em;
     }
 }
