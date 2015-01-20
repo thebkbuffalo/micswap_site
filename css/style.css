@@ -1165,7 +1165,7 @@ CUSTOM CSS STUFF
     margin: 0;
   }
 
-  #tall_iphones {
+  /*#tall_iphones {
     transform: scale(1.1,1.1);
     overflow: hidden;
   }
@@ -1173,7 +1173,7 @@ CUSTOM CSS STUFF
   #short_iphone img {
     transform: scale(1.1,1.1);
     margin-bottom: .4em;
-  }
+  }*/
 
   #mid_video {
     width: 85%;
@@ -1254,7 +1254,7 @@ CUSTOM CSS STUFF
       margin: 0;
     }
 
-    #tall_iphones {
+    /*#tall_iphones {
       transform: scale(1.1,1.1);
       overflow: hidden;
     }
@@ -1262,7 +1262,7 @@ CUSTOM CSS STUFF
     #short_iphone img {
       transform: scale(1.1,1.1);
       margin-bottom: .4em;
-    }
+    }*/
 
     #mid_video {
       width: 90%;
