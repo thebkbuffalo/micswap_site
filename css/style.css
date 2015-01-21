@@ -302,8 +302,10 @@ CUSTOM CSS STUFF
 }
 
 #gary-social, #rob-social {
-  display: none;
+  padding: 1em;
+  font-size: 1.3em;
 }
+
 
 
 #press {
