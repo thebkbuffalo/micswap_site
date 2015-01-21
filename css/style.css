@@ -1388,11 +1388,13 @@ CUSTOM CSS STUFF
       display: inline;
     }
 
-    .video-title {
+    #video-title {
       display: none;
     }
 
-
+    #audio_video {
+      margin: 0;
+    }
 
     #mid_video {
       width: 97%;
