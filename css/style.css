@@ -1165,7 +1165,12 @@ CUSTOM CSS STUFF
   }
 
   #ios-pro {
-    display: none;
+    background: #fff;
+    display: block;
+    color: black !important;
+    margin: 0 17em;
+    border: 1px black solid;
+    border-radius: 3px;
   }
 
   #education {
@@ -1311,7 +1316,12 @@ CUSTOM CSS STUFF
   }
 
   #ios-pro {
-    display: none;
+    background: #fff;
+    display: block;
+    color: black !important;
+    margin: 0 17em;
+    border: 1px black solid;
+    border-radius: 3px;
   }
 
   #education {
@@ -1397,7 +1407,7 @@ CUSTOM CSS STUFF
     }
 
     #mid_video {
-      width: 97%;
+      width: 98.5%;
       height: 20em;
     }
 
@@ -1415,7 +1425,12 @@ CUSTOM CSS STUFF
     }
 
     #ios-pro {
-      display: none;
+      background: #fff;
+      display: block;
+      color: black !important;
+      margin: 0 17em;
+      border: 1px black solid;
+      border-radius: 3px;
     }
 
     #education {
