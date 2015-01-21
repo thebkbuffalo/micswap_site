@@ -214,7 +214,7 @@ CUSTOM CSS STUFF
 
 #pro {
   height: 501px;
-  width: 1340px;
+  width: 100%;
   background: url("../images/ms_pro.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -252,7 +252,7 @@ CUSTOM CSS STUFF
 
 #education {
   height: 375px;
-  width: 1340px;
+  width: 100%;
   background: url("../images/teacher_background.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -265,6 +265,11 @@ CUSTOM CSS STUFF
 .education-inner {
   padding-top: 3em;
   color: white;
+}
+
+#ed_contact:hover {
+  background: black;
+  transition: .5s;
 }
 
 .fa-envelope-o:before {
