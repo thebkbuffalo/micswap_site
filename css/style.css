@@ -1164,28 +1164,27 @@ CUSTOM CSS STUFF
     text-align: center;
   }
 
-  .pro-inner {
-    text-align: center;
+
+
+  #ios-pro {
+    background: #fff;
     display: inline;
+    color: black !important;
+    margin: 0 17em;
+    border: 1px black solid;
+    border-radius: 3px;
   }
 
-  .pro-inner img {
-    text-align: center;
-    margin-top: 3em;
-    margin-bottom: .5em;
+  .pr-inner {
+    padding-top: 1em;
   }
 
   .pro-inner h3 {
+    margin: 0 3em;
     background: white;
-    width: 80%;
-    text-align: center;
-
   }
 
-  #ios-pro {
-    display: inline;
-    text-align: center;
-  }
+
 
   #education {
     width: 100%;
@@ -1244,8 +1243,8 @@ CUSTOM CSS STUFF
         vertical-align: middle;
     }
     .section {
-        padding-left:20px;
-        padding-right:20px;
+        /*padding-left:20px;
+        padding-right:20px;*/
     }
     .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
         margin-left: 0px;
@@ -1329,25 +1328,23 @@ CUSTOM CSS STUFF
     text-align: center;
   }
 
-  .pro-inner {
-    text-align: center;
+
+  #ios-pro {
+    background: #fff;
     display: inline;
+    color: black !important;
+    margin: 0 17em;
+    border: 1px black solid;
+    border-radius: 3px;
   }
 
-  .pro-inner img {
-    text-align: center;
-    margin-top: 3em;
-    margin-bottom: .5em;
+  .pro-inner {
+    padding-top: 1em;
   }
 
   .pro-inner h3 {
-    width: 90%;
+    margin: 0 2em;
     background: white;
-
-  }
-
-  #ios-pro {
-    text-align: center;
   }
 
 
@@ -1450,28 +1447,28 @@ CUSTOM CSS STUFF
       background-size: cover;
       background-position: center center;
       text-align: center;
+      color: white !important;
+    }
+
+
+    #ios-pro {
+      background: #fff;
+      display: inline;
+      color: black !important;
+      border: 1px black solid;
+      border-radius: 3px;
     }
 
     .pro-inner {
-      text-align: center;
-      display: inline;
+      padding-top: 1em;
     }
 
-    .pro-inner img {
-      text-align: center;
-      margin-top: 3em;
-      margin-bottom: .5em;
-    }
 
     .pro-inner h3 {
-      width: 90%;
+      margin: 0 1em;
       background: white;
-
     }
 
-    #ios-pro {
-      text-align: center;
-    }
 
     #education {
       width: 100%;
