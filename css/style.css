@@ -1503,8 +1503,15 @@ CUSTOM CSS STUFF
       display: none !important;
     }
 
+    .press-contact {
+      display: block;
+      text-align: center;
+
+    }
+
     .general, .support, .press-contact {
-      width: 40%;
+      /*width: 40%;*/
+      margin: 0 6em;
     }
 
     .social li {
