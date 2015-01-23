@@ -329,6 +329,10 @@ CUSTOM CSS STUFF
   margin-top: 5em;
 }
 
+#contact {
+  text-align: center;
+}
+
 
 #contact-icons {
   margin-bottom: 2em;
@@ -353,7 +357,7 @@ CUSTOM CSS STUFF
 
 .general, .support, .press-contact {
   display: inline-block;
-  margin: 0 5em;
+  /*margin: 0 5em;*/
 }
 
 #social_section {
@@ -1504,14 +1508,15 @@ CUSTOM CSS STUFF
     }
 
     .press-contact {
-      display: block;
+      display: inline;
       text-align: center;
 
     }
 
     .general, .support, .press-contact {
       /*width: 40%;*/
-      margin: 0 6em;
+      display: inline;
+
     }
 
     .social li {
