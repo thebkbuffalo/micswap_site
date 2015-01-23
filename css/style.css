@@ -28,7 +28,7 @@
 1. General
 **********************************************************************/
  body {
-    font-family:'Roboto', sans-serif;
+    font-family:'Raleway', sans-serif;
     color: #FFF;
     line-height:1.2em;
     font-size:17px;
@@ -83,7 +83,7 @@ p {
     margin:10px 3px;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
-    border: 1px solid #181A1C;
+    /*border: 1px solid #181A1C;*/
     box-shadow: none;
     font-size:15px;
     text-shadow: none;
@@ -91,16 +91,16 @@ p {
     transition: border-color 1s ease;
 }
 .navbar .nav > li:hover> a, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
     color: #fff;
-    background-color: #3399FF;
+    /*background-color: #3399FF;*/
     transition: border-color 1s ease;
 }
 .nav-pills {
     margin-bottom: 30px;
 }
 .nav-pills > li > a {
-    background: transparent;
+    /*background: transparent;*/
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
@@ -110,12 +110,12 @@ p {
     border: 1px solid #181A1C;
 }
 .nav-pills > li > a:hover, .nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
-    background: #181A1C;
+    /*background: #181A1C;*/
     color: #fff;
 }
 .navbar .btn-navbar:hover, .navbar .btn-navbar {
     border-radius:0;
-    background:#FFFFFF;
+    /*background:#FFFFFF;*/
     color: #000;
     margin-top: .9em;
 }
@@ -357,7 +357,7 @@ CUSTOM CSS STUFF
 
 .general, .support, .press-contact {
   display: inline-block;
-  /*margin: 0 5em;*/
+  margin: 0 5em;
 }
 
 #social_section {
@@ -574,6 +574,7 @@ CUSTOM CSS STUFF
 .social p {
   color: gray;
   font-size: 1.2em;
+  text-decoration: none;
 }
 
 
@@ -586,7 +587,7 @@ CUSTOM CSS STUFF
     line-height: 60px;
     font-family:'Porta';
     font-size: 35px;
-    padding:0 20px;
+    padding: 10px 25px;
     margin-top: .5em;
     margin-left: .3em;
     border: 2px solid;
@@ -1516,7 +1517,7 @@ CUSTOM CSS STUFF
     .general, .support, .press-contact {
       /*width: 40%;*/
       display: inline;
-
+      margin: 0;
     }
 
     .social li {
