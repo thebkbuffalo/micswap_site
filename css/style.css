@@ -1577,7 +1577,8 @@ footer {
 
     .social li {
       margin-left: 0 !important;
-      padding: 5px 15px;
+      padding: 5px 19px;
+      border-radius: 100%
     }
 
 }
