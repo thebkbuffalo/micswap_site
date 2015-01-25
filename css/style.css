@@ -78,7 +78,7 @@ p {
 }
 .navbar .nav > li > a {
     text-transform:uppercase;
-    text-decoration: bold;
+
     line-height: auto;
     vertical-align: middle;
     margin:10px 3px;
@@ -1323,10 +1323,12 @@ CUSTOM CSS STUFF
 
   #micswap-pro {
     width: 100%;
+    height: 100%;
   }
 
   #pro {
     width: 100%;
+    height: 100%;
     background: url("../images/ms_pro.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -1448,6 +1450,7 @@ CUSTOM CSS STUFF
 
     #pro {
       width: 100%;
+      height: 100%;
       background: url("../images/ms_pro.jpg");
       background-repeat: no-repeat;
       background-size: cover;
@@ -1467,6 +1470,7 @@ CUSTOM CSS STUFF
 
     .pro-inner {
       padding-top: 1em;
+      height: 30em;
     }
 
 
@@ -1523,6 +1527,7 @@ CUSTOM CSS STUFF
 
     .social li {
       margin-left: 0 !important;
+      padding: 5px 15px;
     }
 
 }
