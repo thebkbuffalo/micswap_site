@@ -1151,6 +1151,9 @@ CUSTOM CSS STUFF
     margin-bottom: 1.75em;
   }
 
+  #video-title {
+    display: none;
+  }
 
   #mid_video {
     width: 97%;
