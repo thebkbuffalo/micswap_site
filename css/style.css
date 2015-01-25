@@ -196,11 +196,16 @@ CUSTOM CSS STUFF
 }
 
 #short_iphone {
-  background: rgb(103, 210, 210);
+  background: #3E94EC;
   text-align: center;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
+
+#i-f-s h1 {
+  color: white !important;
+}
+
 
 #short_iphone img {
   margin-top: 2em;
@@ -365,6 +370,17 @@ CUSTOM CSS STUFF
   background: url("../images/social-bg.png");
 }
 
+footer {
+  height: 80px;
+  width: 100%;
+  background: #3E94EC;
+  text-align: center;
+}
+
+#copyright-inner p {
+  color: white;
+  padding-top: 1.75em;
+}
 
 
 /******
@@ -1453,6 +1469,10 @@ CUSTOM CSS STUFF
 
     #mobile-i-f-s {
       display: inline;
+    }
+
+    #mobile-i-f-s h1 {
+      color: white !important;
     }
 
     #video-title {
