@@ -142,6 +142,10 @@ CUSTOM CSS STUFF
   padding: 4em;
 }
 
+#intro_info h5 {
+  font-size: 1em;
+}
+
 #intro_info a:hover {
   background: black;
   transition: .5s;
