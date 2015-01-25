@@ -1351,6 +1351,11 @@ footer {
     width: 85%;
   }
 
+  #studio_pics {
+    width: 100%;
+    height: 75%;
+  }
+
   #micswap-pro {
     width: 100%;
     height: 100%;
