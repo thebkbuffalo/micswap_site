@@ -1173,11 +1173,13 @@ footer {
     margin-bottom: 1.75em;
   }
 
-
-
   #mid_video {
     width: 97%;
     height: 20em;
+  }
+
+  .main-video {
+    display: none;
   }
 
   #micswap-pro {
@@ -1204,7 +1206,7 @@ footer {
     border-radius: 10px;
   }
 
-  .pr0-inner {
+  .pro-inner {
     padding-top: 1em;
   }
 
@@ -1352,6 +1354,10 @@ footer {
     width: 85%;
   }
 
+  .main-video {
+    display: none;
+  }
+
   #studio_pics {
     width: 100%;
     height: 75%;
@@ -1482,12 +1488,13 @@ footer {
       color: white !important;
     }
 
-
-
-
     #mid_video {
-      width: 98.5%;
+      width: 97%;
       height: 20em;
+    }
+
+    .main-video {
+      display: none;
     }
 
     #micswap-pro {
