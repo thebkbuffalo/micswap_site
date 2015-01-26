@@ -169,6 +169,10 @@ CUSTOM CSS STUFF
   padding: .5em 2em;
 }
 
+#app-store {
+  width: 50%;
+}
+
 #intro_button {
   margin-top: 1.5em;
 }
@@ -240,7 +244,12 @@ CUSTOM CSS STUFF
 }
 
 .pro-inner {
-  padding-top: 5em;
+  padding-top: 3em;
+}
+
+#app-store-pro {
+  width: 17%;
+
 }
 
 #ios-pro {
@@ -677,7 +686,7 @@ footer {
 }
 .secondary-section .title {
     /*border-bottom: 1px solid rgb(71,71,71);*/
-    
+
 }
 .secondary-section h1, .secondary-section .title p {
     color: #181A1C;
